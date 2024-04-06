@@ -1,0 +1,14 @@
+{
+  "name": "-it-sysarch32-midterm-araneta",
+  "version": "1.0.0",
+  "description": "Midterm Exam in SYSARCH32",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvin John Araneta_22249585",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
