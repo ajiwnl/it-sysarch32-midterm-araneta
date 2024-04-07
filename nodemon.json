@@ -1,7 +1,7 @@
 {
     "env": {
-        "PW": "ZPUWhNfsqXvP19Mk"
-    
+        "PW": "ZPUWhNfsqXvP19Mk",
+        "JWT_KEY": "secret"
     
     }
 }
