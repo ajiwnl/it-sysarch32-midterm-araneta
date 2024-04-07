@@ -11,6 +11,8 @@ mongoose.connect("mongodb+srv://alvinjohnaranetz:"+
 process.env.PW +
 "@araneta-midterm-exam.btvjp3b.mongodb.net/");
 
+mongoose.Promise = global.Promise;
+
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
