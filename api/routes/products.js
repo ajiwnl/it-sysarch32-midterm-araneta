@@ -44,7 +44,7 @@ router.post("/", checkAuth, upload.single('productImage'), ProductsController.pr
 
 router.get("/:productId",ProductsController.products_get_spec);
 
-router.patch("/:productId", checkAuth, );
+router.patch("/:productId", checkAuth, ProductsController.products_update_products );
 
 router.delete("/:productId", checkAuth, ProductsController.products_delete_products);
 
