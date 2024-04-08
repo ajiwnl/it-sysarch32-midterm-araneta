@@ -10,7 +10,7 @@ const userRoutes = require('./api/routes/user');
 
 mongoose.connect("mongodb+srv://alvinjohnaranetz:"+
 process.env.PW +
-"@araneta-midterm-exam.btvjp3b.mongodb.net/");
+"@araneta-midterm-exam.btvjp3b.mongodb.net/?retryWrites=true&w=majority&appName=araneta-midterm-exam");
 
 mongoose.Promise = global.Promise;
 
