@@ -15,8 +15,10 @@ process.env.PW +
 mongoose.Promise = global.Promise;
 
 app.use(morgan("dev"));
-app.use(express.static("uploads"));
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static('uploads'));
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
